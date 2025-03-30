@@ -1,0 +1,37 @@
+{
+  "name": "token-lookup",
+  "title": "Token Lookup",
+  "description": "Quickly search and manage Ethereum ERC20 tokens across multiple blockchains",
+  "icon": "logo.png",
+  "author": "yearn",
+  "categories": [
+    "Finance",
+    "Developer Tools"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Search ERC20 Tokens",
+      "icon": "logo.png",
+      "description": "Search for ERC20 tokens by symbol, name, or address",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.64.0",
+    "axios": "^1.6.7",
+    "ethers": "^6.13.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  }
+}
