@@ -1,4 +1,6 @@
-# Token Lookup - Raycast Extension
+<img src="assets/logo.png" width="200" height="200" alt="Token Quick Copy Logo">
+
+# Token Quick Copy - Raycast Extension
 
 A Raycast extension for quickly searching and managing Ethereum ERC20 tokens across multiple blockchains using locally stored token lists.
 

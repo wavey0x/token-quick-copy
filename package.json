@@ -1,7 +1,7 @@
 {
-  "name": "token-lookup",
-  "title": "Token Lookup",
-  "description": "Quickly search and manage Ethereum ERC20 tokens across multiple blockchains",
+  "name": "token-quick-copy",
+  "title": "Token Quick Copy",
+  "description": "Quickly copy Ethereum ERC20 token addresses to your clipboard",
   "icon": "logo.png",
   "author": "yearn",
   "categories": [
@@ -12,16 +12,15 @@
   "commands": [
     {
       "name": "index",
-      "title": "Search ERC20 Tokens",
+      "title": "Lookup Token",
       "icon": "logo.png",
-      "description": "Search for ERC20 tokens by symbol, name, or address",
+      "description": "Quickly copy Ethereum ERC20 token addresses to your clipboard",
       "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.64.0",
     "axios": "^1.6.7",
-    "ethers": "^6.13.5",
     "node-fetch": "^2.7.0"
   },
   "devDependencies": {
